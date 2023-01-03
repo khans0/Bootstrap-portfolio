@@ -13,46 +13,52 @@
 </head>
 
 <!--Navigation-->
-<nav class="navbar navbar-expand-lg bg-light" id="navBar">
+<nav class="navbar navbar-expand-lg" id="navBar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Saarah Khan</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        
+      <img class ="logo" src="./images/meow.png" alt="black cat">   
+      <a class="navbar-brand">Saarah Khan</a>
+     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About me</a>
+            <a class="nav-link active" aria-current="page" href="#aboutme">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="work">My work</a>
+            <a class="nav-link" href=#sectionheading>My work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Bootcamp Skills</a>
+            <a class="nav-link" href="#bootcamp">Bootcamp Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact me</a>
+            <a class="nav-link" href="#contact">Contact me</a>
           </li>
       </div>
     </div>
   </nav>
 
+<main>
+<section id="aboutme">
 <!--Jumbotron Section-->
 <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Saarah Khan</h1>
-      <p class="lead">I am currently learning front-end 
+    <div class="jumbo-container">
+      <h1 class="jumboTitle">Saarah Khan</h1>
+      <p class="jumboText">I am currently learning front-end 
         development with skills for 
         life in the trilogy's skills bootcamp. This portfolio 
         is a collection of the work I have created and
         I hope to add more to it as the bootcamp continues.</p>
+        <div class="avatar">
+        <img src="./images/avatar.png" alt="grey avatar">
+        </div>
+
     </div>
   </div>
+</section>
 
-<main>
     <section>
 <!--Work section-->
-<h2 class="sectionheading">My current Work</h2>
+<h2 id="sectionheading">My current Work</h2>
 <p>This section shows the works I have completed and which language
     was used. If you would like to visit a deployed page, please click on the link.
 </p>
@@ -63,10 +69,9 @@
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="./images/Pink1.png" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Section 1</h5>
-                  <p class="card-text">Some quick example text to build on the 
-                    card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Visit site</a>
+                  <h5 class="card-title">Horiseon Website</h5>
+                  <p class="card-text">Updated the given code to update to semantic HTML</p>
+                  <a href="https://khans0.github.io/Challenge1/" class="btn btn-primary">Visit site</a>
                 </div>
               </div>
         </div>
@@ -75,9 +80,8 @@
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="./images/pink2.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Section 2</h5>
-              <p class="card-text">Some quick example text to build on the 
-                card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Jake's Eatery</h5>
+              <p class="card-text">Used HTML and CSS to created the website.</p>
               <a href="#" class="btn btn-primary">Visit site</a>
             </div>
           </div>
@@ -86,11 +90,12 @@
 
 <!--Second row-->
 <div class="row">
+
     <div class="col">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="./images/Pink3.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Section 3</h5>
+              <h5 class="card-title">Furniture Store</h5>
               <p class="card-text">Some quick example text to build on the 
                 card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Visit site</a>
@@ -102,7 +107,7 @@
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="./images/pink4.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Section 4</h5>
+          <h5 class="card-title">CSS Cheatsheet</h5>
           <p class="card-text">Some quick example text to build on the 
             card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Visit site</a>
@@ -113,11 +118,12 @@
 
 <!--Third Row-->
 <div class="row">
+
     <div class="col">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="./images/Pink5.png" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Section 5</h5>
+              <h5 class="card-title">Placeholder 5</h5>
               <p class="card-text">Some quick example text to build on the 
                 card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Visit site</a>
@@ -129,7 +135,7 @@
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="./images/pink6.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Section 6</h5>
+          <h5 class="card-title">Placeholder 6</h5>
           <p class="card-text">Some quick example text to build on the 
             card title and make up the bulk of the card's content.</p>
           <a href="#" class="btn btn-primary">Visit site</a>
@@ -140,21 +146,20 @@
 </section>
 
 <!--Skills section-->
-<section>
+<section id="bootcamp">
     <h3>Bootcamp Skills</h3>
     <p>This section lists the skills that I will be learning throughout the bootcamp.
         Click to find out more about each topic.
     </p>
     <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action active"> Cras justo odio</a>
-        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-        <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-        <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-        <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+        <a href="https://www.w3schools.com/html/" class="list-group-item list-group-item-action active"> HTML</a>
+        <a href="https://www.w3schools.com/css/" class="list-group-item list-group-item-action">CSS</a>
+        <a href="https://www.w3schools.com/js/" class="list-group-item list-group-item-action">Javascript</a>
+        <a href="https://www.w3schools.com/js/js_api_intro.asp" class="list-group-item list-group-item-action">working with APIs</a>
       </div>
 </section>
 
-<section>
+<section id="contact">
     <h4>Contact me</h4>
     <p>Get in touch!</p>
         <a href="mailto:saarah_96@hotmail.co.uk" class="email">Email</a>
